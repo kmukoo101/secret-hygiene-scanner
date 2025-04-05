@@ -21,7 +21,7 @@ cd Secret-Hygiene-Scanner
 pip install -r requirements.txt
 ```
 
-### Slack Webhook Quick Setup
+### Optional Slack Webhook Setup
 Go to https://api.slack.com/apps and navigate to "create an app" then "add incoming webhooks", activate it and choose desired Slack channel, then copy webhook URL and paste it into GitHub as `SLACK_WEBHOOK`.
 
 ## Usage
