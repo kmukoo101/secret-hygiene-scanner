@@ -55,7 +55,7 @@ Then run:
 
 ## Optional HIBP Lookup
 This scanner supports HaveIBeenPwned email lookups via API (key needed). To enable, replace YOUR_KEY in the code or pass an environment variable and add:
-check_hibp("email@example.com")
+`check_hibp("email@example.com")`
 
 ## Output
 	•	JSON Report: Optional file output with full findings
