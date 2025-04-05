@@ -1,0 +1,18 @@
+{
+  "patterns": {
+    "Azure Key": "AZURE_[A-Za-z0-9]{32}",
+    "Private Key": "-----BEGIN PRIVATE KEY-----",
+    "MongoDB URI": "mongodb(?:\\+srv)?:\\/\\/[\\w:-]+@",
+    "Heroku API Key": "[hH]eroku['\\\"]?: ['\\\"]?[0-9a-fA-F]{32}['\\\"]?"
+  },
+  "ignore_paths": [
+    "tests/",
+    "docs/",
+    "node_modules/",
+    ".venv/"
+  ],
+  "ignore_keywords": [
+    "example_key",
+    "not_a_real_secret"
+  ]
+}
